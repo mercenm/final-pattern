@@ -1,2 +1,2 @@
-# final-pattern
-Final proyect for Pattern Recognition.
+# Final proyect for Pattern Recognition
+In this 
