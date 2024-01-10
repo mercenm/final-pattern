@@ -18,4 +18,8 @@ Considering the vehicular saturation reached in Guadalajara, the bicycle system 
 
 In this work, we will be using the public dataset for MiBici. We will begin with an exploratory analysis, followed by a problem statement and some answers to the proposed questions for the aggregation and prediction methods, finishing with some conclusions.
 
-## Introduction.
+
+## Exploratory Analysis.
+Let us start analyzing the data. We have a dataset per month beginning in December 2014 and ending in May of last year. Given the questions proposed, we will only use 12 datasets corresponding to a year starting in June 2022. We consider the entire year to take into account seasonality.
+
+The data gives some users information, such as an ID, gender, and birth year. For the journey itself, we have the date, the starting and finishing times, and the starting and finishing points. For better results, the data was modified. Firstly, the user's year of birth served to calculate the age. Instead of the starting and finishing date and hour, the duration of the trip. Lastly, the ID served to know the frequency of service usage.
